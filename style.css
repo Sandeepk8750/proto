@@ -1,9 +1,15 @@
-
+body{
+    background-image: url(IMG-20240428-WA0026.jpg);
+    margin: 0%;
+}
 header {
-    background: #333;
+    background: #323231;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+}
+header h1{
+    color: greenyellow;
 }
 
 nav ul {
@@ -14,9 +20,21 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 10px;
+    color: red;
     text-decoration: underline;
 }
+
+nav li a:hover{
+   color: chocolate;
+}
+section{
+    text-align: center;
+    background-color: darkgreen;
+    /* background-color: darkmagenta; */
+    height: 920px;
+}
 .aboutMe h1{
+    padding-top: 20px;
    color: red;
    text-decoration: underline;
 }
@@ -38,17 +56,24 @@ nav ul li {
 }
 .skill p{
     padding-left: 40px;
+    /* color: aqua; */
+    text-shadow: 4px 4px 2px grey;
+    color: yellowgreen;
     
 }
-.Project h1{
+.project h1{
     color: red;
     text-decoration: underline;
 }
 
-.Project p{
+.project p {
     padding-left: 40px;
+    color: violet;
 }
-.contact{
+.project a:hover{
+    color: violet;
+ }
+.contact{  
     background-color: #333;
     color: #fff;
     text-align: center;
