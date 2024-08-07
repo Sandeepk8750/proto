@@ -1,6 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url(IMG-20240428-WA0026.jpg);
     margin: 0%;
+    padding: 0%;
 }
 header {
     background: #323231;
@@ -20,18 +24,44 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 10px;
-    color: red;
+    /* color: red; */
     text-decoration: underline;
+    text-transform: capitalize;
+}
+
+nav a{
+    color: red;
 }
 
 nav li a:hover{
-   color: chocolate;
+   color: yellow;
 }
-section{
+/* nav li a:visited{
+    color: plum;
+ } */
+ nav li a:active{
+    color: olivedrab;
+ } 
+ 
+
+#About{
     text-align: center;
-    background-color: darkgreen;
-    /* background-color: darkmagenta; */
-    height: 920px;
+    /* background-color: darkgreen; */
+    background-color: darkmagenta;
+    height: 550px;
+}
+#Skills{
+    text-align: center;
+    /* background-color: darkgreen; */
+    background-color: darkmagenta;
+    height: 215px;
+   
+}
+#Projects{
+    text-align: center;
+    /* background-color: darkgreen; */
+    background-color: darkmagenta;
+    height: 180px;
 }
 .aboutMe h1{
     padding-top: 20px;
@@ -40,17 +70,17 @@ section{
 }
 
 .aboutMe span{
-    color: darkcyan;
+    color: olivedrab;
 }
 .aboutMe img{
     width: 100px;
     height: 100px;
-    border: 2px solid red;  
+    border: 2px solid red; 
     border-radius: 140px;
     
 }
-
 .skill h1{
+    padding-top: 20px;
     color: red;
     text-decoration: underline;
 }
@@ -58,31 +88,54 @@ section{
     padding-left: 40px;
     /* color: aqua; */
     text-shadow: 4px 4px 2px grey;
-    color: yellowgreen;
-    
+    color: yellowgreen;  
 }
 .project h1{
+    
+    padding-top: 20px;
     color: red;
     text-decoration: underline;
 }
-
 .project p {
-    padding-left: 40px;
-    color: violet;
+    padding-left: 20px;
+    /* color: violet; */
+    color: goldenrod;
+}
+section a{
+    color: goldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .project a:hover{
     color: violet;
  }
-.contact{  
+#Contact{  
     background-color: #333;
     color: #fff;
     text-align: center;
+    list-style:lower-alpha;
+}
+#Contact{
+    height: 220px;
+}
+.contact p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .contact h1{
     color: red;
     text-decoration: underline;
+    padding-top: 20px;
 }
 .contact span{
     color: darkcyan;
 }
-
+.contact a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkcyan;
+}
+.contact a:hover{
+    color: red;
+}
+.contact i{
+    padding-left: 4px;
+    color: blueviolet;
+}

@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Personal Portfolio Page</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
@@ -13,16 +15,15 @@
             <li><a href="#About">About</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            
+            <li><a href="#Contact">Contact</a></li>      
         </ul>
     </nav>
         <h1>I'm Sandeep Kumar</h1>
     </header>
-    <section>
+    <section id="About">
         <div class="aboutMe">
         <h1>About Me</h1>
-        <img src="IMG-20240428-WA0026.jpg" alt="">
+        <a href="sand.jpg"><img src="IMG-20240428-WA0026.jpg" alt=""></a>
         <p><span>Month 2021-Month2024</span></p>
         <p>IGNOU.Delhi-<span>Bachelor of Computer Language</span> </p>
         <br>
@@ -34,7 +35,9 @@
         <p>Shri Gurunanak Girls High School-<span>10th</span></p>
         <p>percntage-64%</p>
         </div>
-        <hr>
+     </section>
+        
+        <section id="Skills">
         <div class="skill">
         <h1>Skills</h1>
         <p>1 - Proficient in Microsoft Office Suite(word,Excel,PowerPoint)</p>
@@ -42,7 +45,9 @@
         <p>3 - Detail-oriented with desire to learn new technologies quickly</p>
         <p>4 - Fluent in English (verbal and written)</p>
         </div>
-        <hr>
+    </section>
+    
+        <section id="Projects">
         <div class="project">
         <h1>Projects</h1>
         <p>1 - <a href="/prac.html">This is my First Project - Click Here</a></p>
@@ -51,12 +56,18 @@
         </div>
     </section>
 
-    <footer class="contact">
+    <footer id="Contact">
+        <div class="contact">
         <h1>Contact</h1>
         <p><span>Sector 11 Laxmi Garden</span></p>
         <p><span>Gurugram 122001</span></p>
-        <p>8750364244</p>
-        <p>sandeepk96571@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> <a href="tel: 8750364244">8750364244</a></p>
+        <p><i class="fa-solid fa-envelope-circle-check"></i> <a href="mailto:sandeepk96571@gmail.com">sandeepk96571@gmail.com</a></p>
+    </div>
     </footer>
 </body>
 </html>
+
+
+
+
